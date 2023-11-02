@@ -32,7 +32,7 @@ A very good bot that you can use in whatsapp.
 
 ## ```Scan QR IN replit here ```
 
- [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@denzouchiwa/BLAST-MD-1?v=1)
+ [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@denzouchiwa/BLAST-MD?v=1)
  
 
 
