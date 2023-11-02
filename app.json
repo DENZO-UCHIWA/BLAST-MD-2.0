@@ -1,14 +1,14 @@
 {
-  "name": "BLADE-MD",
+  "name": "BLAST-MD",
   "description": "A Whatsapp md bot built in NodeJs to make experience better",
-  "logo": "https://telegra.ph/file/3c341828d86ee7a89c73f.jpg",
-  "keywords": ["nodejs", "bot", "whatsapp bot", "Zero-Two", "blade Bot", "blade","BLADE-MD","theme bot","multi device","baileys","Alex tv"],
+  "logo": "https://telegra.ph/file/ad50ea5a171d6647edaa7.jpg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "Zero-Two", "blast Bot", "blast","BLAST-MD","theme bot","multi device","baileys","Alex tv"],
   "success_url": "/",
   "stack": "container",
 "env": {
   "OWNER_NAME": {
   "description": "BOT OWNER NAME", 
-      "value": "Alexdavid"
+      "value": "DENZO"
   },
   "ALIVE_MESSAGE": {
     "description": " SET YOUR ALIVE MESSAGE FOR THE BOT",
@@ -33,7 +33,7 @@
     },
    "THUMB_IMAGE": {
     "description": "THUMBNAIL for bot.",
-     "value": "https://telegra.ph/file/3f3ae4aace2d012c11509.jpg"
+     "value": "https://telegra.ph/file/ad50ea5a171d6647edaa7.jpg"
     },
     "ANTI_BAD_WORD": {
     "description": "Put words here. If you want it enabled in your bot otherwise leave it blank",
@@ -69,11 +69,11 @@
       "value": "."
   },
   "OWNER_NUMBER": {
-    "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-       "value": "put owner number"
+    "description": "The phone numbers! Eg:244935469526 \",\")",
+       "value": "244935469526"
   },
    "SESSION_ID": {
-    "description": "Please put your Session ID that u scanned from the bot.... If u haven't scanned go to BLADE-MD Github Repo U can find the Scanner Option"
+    "description": "HERE"
   },
     "OPENAI_API_KEY": {
     "description": "Please put your OPENAI api key here.Get it from beta.openai.com(optional if u don't wan't then don't put it ",
@@ -85,8 +85,8 @@
     "value": "mongodb://usrdhz7ejxwayzvw69qm:fRuJImqP1BOZyGk9fD6@bupt7kruqljyivftjl4i-mongodb.services.clever-cloud.com:2791/bupt7kruqljyivftjl4i"
   },
     "THEME": {
-    "description": "Put the theme name you want to use. Avilable themes are GOJO,blade-md,NEZUKO,LUFFY,GOKU and many more..",
-     "value": "blade-md"
+    "description": "Put the theme name you want to use. Avilable themes are BLAST-MD,NEZUKO,LUFFY,GOKU.",
+     "value": "BLAST-MD"
   },
     "WORKTYPE": {
   "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
@@ -99,11 +99,11 @@
   },
   "PACK_AUTHOR": {
     "description": "PUT STICKER AUTHER NAME",
-    "value": "ALEXTV:"
+    "value": "DENZO"
   },
   "PACK_NAME": {
     "description": "PUT STICKER PACK NAME",
-    "value": "BLADE-MD"
+    "value": "BLAST-MD"
   },
   "heroku": {
     "description": "Weather it is on heroku or not", 
