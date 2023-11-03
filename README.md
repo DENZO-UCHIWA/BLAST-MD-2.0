@@ -1,6 +1,6 @@
 # BLAST-MD
 
-<img alt=Support height="550" src="https://telegra.ph/file/66408329a209fbefdff19.jpg"> 
+<img alt=Support height="550" src="https://telegra.ph/file/016fbf2d66a8dd3504aa8.png"> 
  
 <p align="center">
  <a href="https://chat.whatsapp.com/IR8cZNst6cU85ih73fVrud" target="_blank">
