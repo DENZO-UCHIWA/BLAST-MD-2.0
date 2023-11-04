@@ -1,3 +1,4 @@
+const _0x1901d7=_0x2296;function _0x3bb5(){
 const os = require('os')
 const moment = require("moment-timezone")
 const fs = require("fs")
@@ -60,8 +61,7 @@ Secktor.cmd({
 ╚══════════════❍
     ╭─────────●
     ╎📃𝙘𝙤𝙢𝙢𝙖𝙣𝙙 𝙡𝙞𝙨𝙩
-    ╰─────────●\n
-` + ''
+    ╰─────────●\n` + ''
                 for (const category in cmds) 
                 {
                    str += `╔═⍟${tiny(category)}⍟══❍\n` ;                   if(text.toLowerCase() == category.toLowerCase()){ str = `╔═⍟ ${tiny(category)}\n⍟══❍` ;      
