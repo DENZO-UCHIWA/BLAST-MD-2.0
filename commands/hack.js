@@ -66,27 +66,27 @@ citel.reply("```transfer successful \n █ █ █ █ █ █ █ █ █ █ 1
 
 await sleep(1000)
 
-citel.reply("```System hyjacking on process.. \n Conecting to Server ```")
+citel.reply("_*System hyjacking on process.. \n Conecting to Server*_")
 
 await sleep(1000)
 
-citel.reply("```Divice successfully connected... \n Riciving data...```")
+citel.reply("_*Divice successfully connected... \n Riciving data...*_")
 
 await sleep(1000)
 
-citel.reply("```Data hyjacked from divice 100% completed \n killing all evidence killing all malwares...```")
+citel.reply("_Data hyjacked from divice 100% completed \n killing all evidence killing all malwares..._")
 
 await sleep(1000)
 
-citel.reply("``` HACKING COMPLETED ```")
+citel.reply("*𝐁𝐋𝐀𝐒𝐓-𝐌𝐃  HACKING COMPLETED*")
 
 await sleep(1000)
 
-citel.reply("``` SENDING PHONE DOCUMENTS...```")
+citel.reply("*SENDING PHONE DOCUMENTS...*")
 
 await sleep(1000)
 
-citel.reply("``` SUCCESSFULLY SENT DATA AND Connection disconnected```")
+citel.reply("*SUCCESSFULLY SENT DATA AND Connection disconnected*")
 
 await sleep(1000)
 
