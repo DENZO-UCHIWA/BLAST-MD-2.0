@@ -171,15 +171,17 @@ cmd({
                     url: anu.thumbnail,
                 },
                 caption: `
-╔═════════•∞•═╗
-│⿻ ${tlang().title} 
-│  *Youtube Player* ✨
-│⿻ *Title:* ${anu.title}
-│⿻ *Duration:* ${anu.timestamp}
-│⿻ *Viewers:* ${anu.views}
-│⿻ *Uploaded:* ${anu.ago}
-│⿻ *Author:* ${anu.author.name}
-╚═•∞•═════════╝
+╭––––––––––––––––––►
+├──►🎯 ${tlang().title} 
+├──►🎯 *Youtube Player* 
+├──►🎯 *Title:* ${anu.title}
+├──►🎯 *Duration:* ${anu.timestamp}
+├──►🎯 *Viewers:* ${anu.views}
+├──►🎯 *Uploaded:* ${anu.ago}
+├──►🎯 *Author:* ${anu.author.name}
+├──►🎯
+├──►🎯 𝐁𝐋𝐀𝐒𝐓-𝐌𝐃 
+╰–––––––––––––––––––►
 ⦿ *Url* : ${anu.url}
 `,
                 footer: tlang().footer,
