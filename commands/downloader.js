@@ -70,16 +70,16 @@ cmd({
         let yts = require("secktor-pack");
         if (!text) return citel.reply(`Example : ${prefix}yts ${tlang().title} WhatsApp Bot`);
         let search = await yts(text);
-        let textt = "*YouTube Search*\n\n Result From " + text + "\n\n───────────────────\n";
+        let textt = "*YouTube Search*\n\n Result From " + text + "\n\n─────────────────►\n";
         let no = 1;
         for (let i of search.all) {
-            textt += `⚡ No : ${no++}\n ❤Title : ${i.title}\n♫ Type : ${
+            textt += `► No : ${no++}\n ►Title : ${i.title}\n♫ Type : ${
       i.type
-    }\n👾Views : ${i.views}\n⌛Duration : ${
+    }\n►Views : ${i.views}\n⌛Duration : ${
       i.timestamp
-    }\n⬆️Upload At : ${i.ago}\n👑Author : ${i.author.name}\n🎵Url : ${
+    }\n⬆️Upload At : ${i.ago}\n►Author : ${i.author.name}\n🎯Url : ${
       i.url
-    }\n\n──────────────\n\n`;
+    }\n\n────────────►\n\n`;
         }
         return Void.sendMessage(citel.chat, {
             image: {
@@ -129,7 +129,7 @@ cmd({
                         jpegThumbnail: log0,
                         mimetype: 'video/mp4',
                         fileName: `${titleYt}.mp4`,
-                        caption: ` ⿻ Title : ${titleYt}\n ⿻ File Size : ${fileSizeInMegabytes} MB`,
+                        caption: ` ► Title : ${titleYt}\n ► File Size : ${fileSizeInMegabytes} MB\n ► 𝐁𝐋𝐀𝐒𝐓-𝐌𝐃`,
                         headerType: 4,
                         contextInfo: {
                             externalAdReply: {
@@ -196,7 +196,7 @@ cmd({
     //---------------------------------------------------------------------------
 
 cmd({
-            pattern: "play",
+            pattern: "play1",
             alias: ["music"],
             desc: "Sends info about the query(of youtube video/audio).",
             category: "downloader",
@@ -296,7 +296,7 @@ cmd({
                     headerType: 4,
                     contextInfo: {
                         externalAdReply: {
-                            title: `Here you go✨`,
+                            title: `Here you go`,
                             body: `${Config.ownername}`,
                             thumbnail: log0,
                             mediaType: 2,
@@ -326,10 +326,10 @@ cmd({
             const baby1 = await mediafire(text);
             if (baby1[0].size.split("MB")[0] >= 999) return reply("*File Over Limit* " + util.format(baby1));
             const result4 = `*ᴵᶻᵁᴷᵁ Mᴇᴅɪᴀғɪʀᴇ Dᴏᴡɴʟᴏᴀᴅᴇʀ*
-*Nᴀᴍᴇ* : ${baby1[0].nama}
-*Sɪᴢᴇ* : ${baby1[0].size}
-*Mɪᴍᴇ* : ${baby1[0].mime}
-*Lɪɴᴋ* : ${baby1[0].link}`;
+► *Nᴀᴍᴇ* : ${baby1[0].nama}
+► *Sɪᴢᴇ* : ${baby1[0].size}
+► *Mɪᴍᴇ* : ${baby1[0].mime}
+► *Lɪɴᴋ* : ${baby1[0].link}`;
             reply(`${result4}`);
             return Void.sendMessage(citel.chat, {
                     document: {
@@ -451,7 +451,7 @@ cmd({
                         jpegThumbnail: log0,
                         mimetype: 'video/mp4',
                         fileName: `${titleYt}.mp4`,
-                        caption: ` ⿻ Title : ${titleYt}\n ⿻ File Size : ${fileSizeInMegabytes} MB`,
+                        caption: ` ► Title : ${titleYt}\n ► File Size : ${fileSizeInMegabytes} MB\n ► 𝐁𝐋𝐀𝐒𝐓-𝐌𝐃`,
                         headerType: 4,
                         contextInfo: {
                             externalAdReply: {
