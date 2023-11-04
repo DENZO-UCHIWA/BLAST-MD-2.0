@@ -3,9 +3,9 @@
  Licensed under the  GPL-3.0 License;
  You may not use this file except in compliance with the License.
  It is supplied in the hope that it may be useful.
- * @project_name : XLICON-MD
- * @author : salmanytofficial <https://github.com/salmanytofficial/XLICON-MD>
- * @description : XLICON,A Multi-functional whatsapp bot.
+ * @project_name : BLAST-MD 
+ * @author : DENZO UCHIWA<https://github.com/DENZO-UCHIWA>
+ * @description : BLAST-MD,A Multi-functional whatsapp bot.
  * @version 0.0.6
  **/
 
@@ -160,16 +160,16 @@ cmd({
             pattern: "fancy",
             desc: "Makes stylish/fancy given text",
             category: "converter",
-            use: '56 Secktor',
+            use: '56 BLAST-MD',
             react: "✅",
             filename: __filename
         },
         async(Void, citel, text) => {
             if (isNaN(text.split(" ")[0]) || !text) {
                 let text = tiny(
-                    "Fancy text generator\n\nExample: .fancy 32 Secktor\n\n"
+                    "Fancy text generator\n\nExample: .fancy 22 BLAST-MD\n\n"
                 );
-                listall("Secktor Bot").forEach((txt, num) => {
+                listall("BLAST-MD").forEach((txt, num) => {
                     text += `${(num += 1)} ${txt}\n`;
                 });
                 return await citel.reply(text);
@@ -186,7 +186,7 @@ cmd({
             desc: "Makes url tiny.",
             category: "converter",
             use: '<url>',
-            react: "✅",
+            react: "⚡",
             filename: __filename
         },
         async(Void, citel, text) => {
