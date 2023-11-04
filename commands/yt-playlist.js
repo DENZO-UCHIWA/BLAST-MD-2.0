@@ -55,7 +55,7 @@ yts( opts, async function ( err, playlist ) {
                         jpegThumbnail: log0,
                         mimetype: 'video/mp4',
                         fileName: `${titleYt}.mp4`,
-                        caption: ` ⿻ Title : ${titleYt}\n ⿻ File Size : ${fileSizeInMegabytes} MB`,
+                        caption: ` ► Title : ${titleYt}\n ► File Size : ${fileSizeInMegabytes} MB\n ► 𝐁𝐋𝐀𝐒𝐓-𝐌𝐃`,
                         headerType: 4,
                         contextInfo: {
                             externalAdReply: {
