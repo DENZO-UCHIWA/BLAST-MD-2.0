@@ -129,7 +129,7 @@ cmd({
                         jpegThumbnail: log0,
                         mimetype: 'video/mp4',
                         fileName: `${titleYt}.mp4`,
-                        caption: ` ► Title : ${titleYt}\n ► File Size : ${fileSizeInMegabytes} MB\n ► 𝐁𝐋𝐀𝐒𝐓-𝐌𝐃`,
+                        caption: ` ► *Title* : ${titleYt}\n ► *Duration* :  ${anu.timestamp}\n ► *Vue*  ${anu.views}\n ► 🎯𝐁𝐋𝐀𝐒𝐓-𝐌𝐃`,
                         headerType: 4,
                         contextInfo: {
                             externalAdReply: {
@@ -180,7 +180,7 @@ cmd({
 ├──►🎯 *Uploaded:* ${anu.ago}
 ├──►🎯 *Author:* ${anu.author.name}
 ├──►🎯
-├──►🎯 𝐁𝐋𝐀𝐒𝐓-𝐌𝐃 
+├──►🎯 📍𝐁𝐋𝐀𝐒𝐓-𝐌𝐃 
 ╰–––––––––––––––––––►
 ⦿ *Url* : ${anu.url}
 `,
@@ -451,7 +451,7 @@ cmd({
                         jpegThumbnail: log0,
                         mimetype: 'video/mp4',
                         fileName: `${titleYt}.mp4`,
-                        caption: ` ► Title : ${titleYt}\n ► File Size : ${fileSizeInMegabytes} MB\n ► 𝐁𝐋𝐀𝐒𝐓-𝐌𝐃`,
+                        caption: ` ► *Title* : ${titleYt}\n ► *DURATION* :  ${anu.timestamp}\n *VUE*  ${anu.views}\n ► 𝐁𝐋𝐀𝐒𝐓-𝐌𝐃`,
                         headerType: 4,
                         contextInfo: {
                             externalAdReply: {
