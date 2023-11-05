@@ -3,9 +3,9 @@
  Licensed under the  GPL-3.0 License;
  You may not use this file except in compliance with the License.
  It is supplied in the hope that it may be useful.
- * @project_name : XLICON-MD
- * @author : SalmanYtOfficial <https://github.com/salmanytofficial>
- * @description : XLICON ,A Multi-functional whatsapp bot.
+ * @project_name : BLAST-MD
+ * @author : DENZO-UCHIWA <https://github.com/DENZO-UCHIWA/BLAST-MD>
+ * @description : BLAST-MD,A Multi-functional whatsapp bot.
  * @version 0.0.6
  **/
 
@@ -134,7 +134,7 @@ cmd({
         filename: __filename,
     },
     async(Void, citel, text) => {
-        if (!text) return citel.reply(`give me a query\n*Example : .google Who is Suhail Tech.*`);
+        if (!text) return citel.reply(`give me a query\n*Example : .google Who is BLAST-MD.*`);
         let google = require('google-it');
         google({ 'query': text}).then(res => {
             let msg= `Google Search From : ${text} \n\n`;
@@ -142,6 +142,7 @@ cmd({
                 msg+= `➣ Title : ${g.title}\n`;
                 msg+= `➣ Description : ${g.snippet}\n`;
                 msg+= `➣ Link : ${g.link}\n\n────────────────────────\n\n`;
+                msg+= `➣ 𝐁𝐋𝐀𝐒𝐓-𝐌𝐃`;
             }
          
             return citel.reply(msg);
@@ -167,7 +168,7 @@ cmd({
 
                 let n = await gis(name1)
                     images = n[Math.floor(Math.random() * n.length)].url;
-                    await Void.sendMessage(citel.chat, {image: {  url: images,}, caption: `_Xlicon Image Search_\n*${name1}*`,}, { quoted: citel, });
+                    await Void.sendMessage(citel.chat, {image: {  url: images,}, caption: `_𝐁𝐋𝐀𝐒𝐓-𝐌𝐃 Image Search_\n*${name1}*`,}, { quoted: citel, });
             }
         }
     )
@@ -195,7 +196,7 @@ cmd({
     },
     async(Void, citel, text) => {
         var inputnumber = text.split(" ")[0]
-        if (!inputnumber.includes('x')) return citel.reply('You did not add x\nExample: iswa 9196285162xx')
+        if (!inputnumber.includes('x')) return citel.reply('You did not add x\nExample: iswa 244935469526')
         citel.reply(`Searching for WhatsApp account in given range...`)
 
         function countInstances(string, word) {
@@ -208,7 +209,7 @@ cmd({
         if (random_length == 1) {   randomxx = 10 } 
         else if (random_length == 2) { randomxx = 100  } 
         else if (random_length == 3) {randomxx = 1000  }
-        var text = `*--『 List of Whatsapp Numbers 』--*\n\n`
+        var text = `*List of Whatsapp Numbers*\n\n`
         var nobio = `\n*Bio:* || \nHey there! I am using WhatsApp.\n`
         var nowhatsapp = `\n*Numbers with no WhatsApp account within provided range.*\n`
         for (let i = 0; i < randomxx; i++) {
@@ -238,7 +239,7 @@ cmd({
                 if (anu1 == '401' || anu1.status.length == 0) {
                     nobio += `wa.me/${anu[0].jid.split("@")[0]}\n`
                 } else {
-                    text += `🧐 *Number:* wa.me/${anu[0].jid.split("@")[0]}\n ✨*Bio :* ${anu1.status}\n🍁*Last update :* ${moment(anu1.setAt).tz('Asia/Kolkata').format('HH:mm:ss DD/MM/YYYY')}\n\n`
+                    text += `🧐 *Number:* wa.me/${anu[0].jid.split("@")[0]}\n ✨*Bio :* ${anu1.status}\n🍁*Last update :* ${moment(anu1.setAt).tz('Africa/Brazzaville').format('HH:mm:ss DD/MM/YYYY')}\n\n`
                 }
             } catch { nowhatsapp += `${number0}${i}${number1}\n` }
         }
