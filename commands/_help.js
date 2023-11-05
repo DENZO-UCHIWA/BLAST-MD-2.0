@@ -1,15 +1,5 @@
-const _0x1901d7=_0x2296;function _0x3bb5(){
-const os = require('os')
-const moment = require("moment-timezone")
-const fs = require("fs")
-const Config = require('../config')
-let { fancytext, tlang, tiny, runtime, formatp, botpic, prefix, sck1 } = require("../lib");
-const long = String.fromCharCode(8206)
-const readmore = long.repeat(4001)
-const Secktor = require('../lib/commands')
-
-    //---------------------------------------------------------------------------
-Secktor.cmd({
+const _0x3d8f13=_0x1129;(function(_0x4b0aca,_0x2a56bf){const _0x4b77e1=_0x1129,_0x5c2fc8=_0x4b0aca();while(!![]){try{const _0x46b83a=-parseInt(_0x4b77e1(0x170))/0x1+parseInt(_0x4b77e1(0x181))/0x2*(-parseInt(_0x4b77e1(0x189))/0x3)+parseInt(_0x4b77e1(0x17b))/0x4*(parseInt(_0x4b77e1(0x16e))/0x5)+-parseInt(_0x4b77e1(0x163))/0x6+-parseInt(_0x4b77e1(0x1a4))/0x7*(parseInt(_0x4b77e1(0x188))/0x8)+-parseInt(_0x4b77e1(0x186))/0x9*(-parseInt(_0x4b77e1(0x162))/0xa)+-parseInt(_0x4b77e1(0x187))/0xb*(-parseInt(_0x4b77e1(0x18c))/0xc);if(_0x46b83a===_0x2a56bf)break;else _0x5c2fc8['push'](_0x5c2fc8['shift']());}catch(_0x2a4a7d){_0x5c2fc8['push'](_0x5c2fc8['shift']());}}}(_0xb39e,0x3f4e7));const os=require('os'),moment=require(_0x3d8f13(0x17e)),fs=require('fs'),Config=require(_0x3d8f13(0x19f));let {fancytext,tlang,tiny,runtime,formatp,botpic,prefix,sck1}=require(_0x3d8f13(0x18d));function _0xb39e(){const _0x238318=['4264997DHwMWU','8NniqqA','24693bLrLPy','Asia/Kolkata'
+BLAST.cmd({
             pattern: "help",
             alias: ["menu"],
             desc: "Help list",
