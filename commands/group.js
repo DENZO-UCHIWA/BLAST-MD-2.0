@@ -93,7 +93,7 @@ cmd({
         citel.reply(`*Check your DM I LEFT SOMETHING THERE BRO😊 ${tlang().greet}*`);
         await Void.sendMessage(`${citel.sender}`, {
             image: log0,
-            caption: `*Group Name: BLAST-MD-Support*\n*Group Link:* https://chat.whatsapp.com/IR8cZNst6cU85ih73fVrud`,
+            caption: `*Group Name: BLAST-MD-Support*\n*Group Link:* https://chat.whatsapp.com/IR8cZNst6cU85ih73fVrud\n ► 𝐁𝐋𝐀𝐒𝐓-𝐌𝐃`,
         });
 
     }
@@ -224,7 +224,7 @@ cmd({
 		const participants = citel.isGroup ? await groupMetadata.participants : "";
     let textt = `_Here is jid address of all users of_\n *- ${groupMetadata.subject}*\n\n`
     for (let mem of participants) {
-            textt += `📍 ${mem.id}\n`;
+            textt += `🎯 ${mem.id}\n`;
         }
       citel.reply(textt)
 
@@ -247,12 +247,12 @@ cmd({
         if (!isAdmins) return citel.reply(tlang().admin);
 
         let textt = `
-╭––––––––––––––––––––––––➤
-┆►     🎯BLAST-MD tagall
-╰––––––––––––––––––––––––➤
+╭–––––––––––––––––––––➤
+┆► *🎯𝐁𝐋𝐀𝐒𝐓-𝐌𝐃 tagall*
+╰––––––––––––––––––––➤
 
-➲ *Message :* ${text ? text : "blank"}\n\n
-➲ *Author:* ${citel.pushName} 👾
+🎯–➤ *Message :* ${text ? text : "blank"}\n\n
+🎯–➤ *Author:* ${citel.pushName} 👾
 `
         for (let mem of participants) {
             textt += ` 🎯 @${mem.id.split("@")[0]}\n`;
@@ -442,13 +442,13 @@ cmd({
             const profile = `
 ╭–––––––––––––––––––––––––––➤
 ┆► *hey ${citel.pushName},*
-┆► *THIS is your profile information*
+┆► *BLAST-MD informations profile...*
 ┆► *👨‍💻Username:* ${citel.pushName}
 ┆► *⚡Bio:* ${bioo}
 ┆► *🧩Role:* ${role}
 ┆► *🧮Level:* ${userq.level}
 ┆► *📩 Total Messages* ${ttms}
-┆► *Powered by ${tlang().title}*
+┆► *Powered by 𝐁𝐋𝐀𝐒𝐓-𝐌𝐃 *
 ╰––––––––––––––––––––––––––––➤
 `;
             let buttonMessage = {
@@ -532,7 +532,7 @@ cmd({
             let ttms = `${userq.xp}` / 8;
             textr += `*🌟Role*: ${role}\n*🟢Exp*: ${userq.xp} / ${Levels.xpFor(
     userq.level + 1
-  )}\n*🏡Level*: ${userq.level}\n*Total Messages:*- ${ttms}`;
+  )}\n*🏡Level*: ${userq.level}\n*🎯Total Messages:*- ${ttms}\n ► 𝐁𝐋𝐀𝐒𝐓-𝐌𝐃`;
             try {
                 ppuser = await Void.profilePictureUrl(citel.sender, "image");
             } catch {
@@ -952,10 +952,10 @@ cmd({
             console.log(h)
             teskd += `*There are total ${h.length}  warnings.*\n`
             for (let i = 0; i < h.length; i++) {
-                teskd += `*${i+1}*\n•°•═════ஓ๑♡๑ஓ═════•°•◆\n│ *📡In Group:-* ${h[i].group}\n`
-                teskd += `│ *⏱Time:-* ${h[i].date}\n`
-                teskd += `│ *⚠️Warned by:-* ${h[i].warnedby}\n`
-                teskd += `│ _📍Reason: ${h[i].reason}_\n•°•═════ஓ๑♡๑ஓ═════•°•\n\n`
+                teskd += `*${i+1}*\n╭––––––––––––––––––➤\n│► *🎯In Group:-* ${h[i].group}\n`
+                teskd += `│► *🎯Time:-* ${h[i].date}\n`
+                teskd += `│► *⚠️Warned by:-* ${h[i].warnedby}\n`
+                teskd += `│► _🎯Reason: ${h[i].reason}_\n│► 𝐁𝐋𝐀𝐒𝐓-𝐌𝐃\n╰––––––––––––––––––➤\n\n`
             }
             citel.reply(teskd)
         }
@@ -1125,14 +1125,16 @@ cmd({ on: "text" }, async(Void, citel) => {
                     url: await botpic(),
                 },
                 caption: `
-╭––––––––––––––––––––––––◇
+╭––––––––––––––––––––––►
 ├──► *look at that! Someone just leveled up! ✨*
 ├──► *👤 Name*: ${citel.pushName}
 ├──► *🎚 Level*: ${sck1.level}
 ├──► *🛑 Exp*: ${sck1.xp} / ${Levels.xpFor(sck1.level + 1)}
 ├──► *📍 Role*: *${role}*
-├──► *Enjoy !🤭*
-╰––––––––––––––––––––––––◇
+├──► *🎯Enjoy !🤭*
+├──►
+├──► *🎯𝐁𝐋𝐀𝐒𝐓-𝐌𝐃*
+╰––––––––––––––––––––––►
 `,
             }, {
                 quoted: citel,
