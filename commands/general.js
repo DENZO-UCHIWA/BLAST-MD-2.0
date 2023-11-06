@@ -19,7 +19,7 @@ cmd({
     alias :['gpt'],
     desc: "chat with an AI(GPT)",
     category: "AI",
-    use: '<Hii,Secktor>',
+    use: '<Hii,BLAST-MD>',
     filename: __filename,
 },
 async(Void, citel,text) => {
@@ -164,10 +164,12 @@ cmd({
 ┆► *🎯Description:* A WhatsApp bot with rich features, build in NodeJs to make your WhatsApp enjoyable.
 ┆► *🎯Speed:* ${latensie.toFixed(4)} ms
 ┆► *🎯Uptime:* ${runtime(process.uptime())}
-┆► *🎯Version:* 0.0.7
+┆► *🎯Version:* 0.0.9
 ┆► *🎯Owner:*  ${Config.ownername}
 ┆► *🎯𝐁𝐋𝐀𝐒𝐓-𝐌𝐃*: https://chat.whatsapp.com/IR8cZNst6cU85ih73fVrud 
 ┆► *🎯Developed by*: 𝐃𝐄𝐍𝐙𝐎 𝐔𝐂𝐇𝐈𝐖𝐀
+┆►
+┆► 🎯𝐁𝐋𝐀𝐒𝐓-𝐌𝐃 
 ╰–––––––––––––––––––––––––––––►
 Powered by ${tlang().title}*
 `;
@@ -181,7 +183,7 @@ Powered by ${tlang().title}*
             contextInfo: {
                 externalAdReply: {
                     title: tlang().title,
-                    body: `Bot-Status`,
+                    body: `𝐁𝐋𝐀𝐒𝐓-𝐌𝐃-Status`,
                     thumbnail: log0,
                     mediaType: 2,
                     mediaUrl: ``,
@@ -207,7 +209,7 @@ async(Void, citel,text,{isCreator}) => {
 
 if(!isCreator) return citel.reply(tlang().owner);
 let str="*All available themes in 𝐁𝐋𝐀𝐒𝐓-𝐌𝐃*"
-str+=`►. BLAST-MD  AYANOKOJI\n►. EDITH\n►. FRIDAY\n►. GENOS\n►. GIDEON\n►. GOKU\n►. LUFFY\n►. NARUTO\n►. NEZUKO\n►. PARKER\n►. ZEROTWO\n►. DENZO-UCHIWA(Coming Soon)\n\n these are the themes of 𝐁𝐋𝐀𝐒𝐓-𝐌𝐃  Userbot.\_Reply ${prefix}setvar THEME:ZEROTWO`
+str+=`\n►. BLAST-MD  AYANOKOJI\n►. EDITH\n►. FRIDAY\n►. GENOS\n►. GIDEON\n►. GOKU\n►. LUFFY\n►. NARUTO\n►. NEZUKO\n►. PARKER\n►. ZEROTWO\n ► DENZO-UCHIWA(Coming Soon)\n\n these are the themes of 𝐁𝐋𝐀𝐒𝐓-𝐌𝐃  Userbot.\n_Reply ${prefix}setvar THEME: LUFFY_`
 return citel.reply(str)
     
 }
