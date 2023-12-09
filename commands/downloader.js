@@ -189,25 +189,8 @@ cmd({
             };
             return Void.sendMessage(citel.chat, buttonMessage, {
                 quoted: citel,
-            });
-
-        }
-    )
-    //---------------------------------------------------------------------------
-
-cmd({
-            pattern: "play1",
-            alias: ["music"],
-            desc: "Sends info about the query(of youtube video/audio).",
-            category: "downloader",
-            filename: __filename,
-            use: '<faded-Alan walker.>',
-        },
-async(Void, citel, text) => {
-   const getRandom = (ext) => { return `${Math.floor(Math.random() * 10000)}${ext}`; };    
-   if (text.length == 0 && !citel.quoted) return citel.reply(`Give Song Name, Ex ${prefix}play back in black*`);
-   try {
-            let urlYt = text;
+	    }
+         let urlYt = text;
             if(!text){ text=citel.quoted.text; }
 
             if (!urlYt.startsWith("http")) 
