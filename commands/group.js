@@ -247,9 +247,9 @@ cmd({
         if (!isAdmins) return citel.reply(tlang().admin);
 
         let textt = `
-╭–––––––––––––––––––––➤
+╭–––––––––––––––––➤
 ┆► *🎯𝐁𝐋𝐀𝐒𝐓-𝐌𝐃 tagall*
-╰––––––––––––––––––––➤
+╰–––––––––––––––––➤
 
 🎯–➤ *Message :* ${text ? text : "blank"}\n\n
 🎯–➤ *Author:* ${citel.pushName} 👾
@@ -440,16 +440,16 @@ cmd({
                 pfp = await botpic();
             }
             const profile = `
-╭–––––––––––––––––––––––––––➤
-┆► *hey ${citel.pushName},*
-┆► *BLAST-MD informations profile...*
-┆► *👨‍💻Username:* ${citel.pushName}
-┆► *⚡Bio:* ${bioo}
-┆► *🧩Role:* ${role}
-┆► *🧮Level:* ${userq.level}
-┆► *📩 Total Messages* ${ttms}
-┆► *Powered by 𝐁𝐋𝐀𝐒𝐓-𝐌𝐃 *
-╰––––––––––––––––––––––––––––➤
+╭–––––––––––––––––––➤
+► *hey ${citel.pushName},*
+► *BLAST-MD informations profile...*
+► *👨‍💻Username:* ${citel.pushName}
+► *⚡Bio:* ${bioo}
+► *🧩Role:* ${role}
+► *🧮Level:* ${userq.level}
+► *📩 Total Messages* ${ttms}
+► *Powered by 𝐁𝐋𝐀𝐒𝐓-𝐌𝐃 *
+╰––––––––––––––––––––➤
 `;
             let buttonMessage = {
                 image: {
@@ -1125,7 +1125,7 @@ cmd({ on: "text" }, async(Void, citel) => {
                     url: await botpic(),
                 },
                 caption: `
-╭––––––––––––––––––––––►
+╭–––––––––––––––––––––►
 ├──► *look at that! Someone just leveled up! ✨*
 ├──► *👤 Name*: ${citel.pushName}
 ├──► *🎚 Level*: ${sck1.level}
@@ -1135,6 +1135,7 @@ cmd({ on: "text" }, async(Void, citel) => {
 ├──►
 ├──► *🎯𝐁𝐋𝐀𝐒𝐓-𝐌𝐃*
 ╰––––––––––––––––––––––►
+© 𝐁𝐋𝐀𝐒𝐓-𝐌𝐃 𝐁𝐘 *DENZO-UCHIWA.*
 `,
             }, {
                 quoted: citel,
