@@ -3,10 +3,10 @@
  Licensed under the  GPL-3.0 License;
  You may not use this file except in compliance with the License.
  It is supplied in the hope that it may be useful.
- * @project_name : XLICON-MD
- * @author : SalmanYtOfficial <https://github.com/salmanytofficial>
- * @description : XLICON,A Multi-functional whatsapp bot.
- * @version 0.0.6
+ * @project_name : BLAST-MD
+ * @author : DENZO-UCHIWA <https://github.com/DENZO-UCHIWA>
+ * @description : BLAST-MD,A Multi-functional whatsapp bot.
+ * @version 0.0.9
  **/
 
 const { dare, truth, random_question } = require('../lib/truth-dare.js')
@@ -68,11 +68,14 @@ cmd({
     async(Void, citel, text) => {
         var quoo = await axios.get(`https://favqs.com/api/qotd`)
         const replyf = `
-╔════◇
-║ *🎯Content:* ${quoo.data.quote.body}
-║ *👤Author:* ${quoo.data.quote.author}
-║
-╚════════════╝ `
+╔══════════►
+║► *🎯Content:* ${quoo.data.quote.body}
+║► *👤Author:* ${quoo.data.quote.author}
+║► *Bot name:* 𝐁𝐋𝐀𝐒𝐓-𝐌𝐃
+║► *Developed by:*
+╚══════════►
+© 𝐁𝐋𝐀𝐒𝐓-𝐌𝐃
+`
 return citel.reply(replyf)
     }
 
