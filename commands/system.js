@@ -4,9 +4,9 @@
  Licensed under the  GPL-3.0 License;
  You may not use this file except in compliance with the License.
  It is supplied in the hope that it may be useful.
- * @project_name : Secktor-Md
- * @author : SamPandey001 <https://github.com/SamPandey001>
- * @description : Secktor,A Multi-functional whatsapp bot.
+ * @project_name : BLAST-MD 
+ * @author : DENZO-UCHIWA 
+ * @description : BLAST-MD,A Multi-functional whatsapp bot.
  * @version 0.0.6
  **/
 
@@ -246,21 +246,37 @@ cmd({
         async(Void, citel, text, isAdmins) => {
             let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by DENZO-UCHIWA.*`
             const alivtxt = `
-*Yo👋, ${citel.pushName},*
+*Hey 👋, ${citel.pushName}, How are you ?*
 _This is  ${tlang().title}._
 ${alivemessage}
-╭––––––––––––––––––––––––➤
-┆► *Version:* _0.0.7_
+╭─────────────────────➤  
+┆
+├──► *BOT NAME:* 𝐁𝐋𝐀𝐒𝐓-𝐌𝐃
+┆
+├──► *DEVELOPED BY:* 𝐃𝐄𝐍𝐙𝐎 𝐔𝐂𝐇𝐈𝐖𝐀 
+┆
+├──► *DEVELOPER NUMBER:* +244939457425
+┆
+├──► *MODS:*
+┆
+├──► *TIME:* 
+┆
+├──► *DATE:* 
+└────────────────────►  
+┆► *Version:* _0.0.9_
+│ 
 ┆► *Uptime:* _${runtime(process.uptime())}_
+│ 
 ┆► *Owner:* _${Config.ownername}_
+│ 
 ┆► *Branch:* _${Config.BRANCH}_
+┆ 
+├► *github link:* https://github.com/DENZO-UCHIWA/BLAST-MD
 ┆
-├──► *github link:* https://github.com/DENZO-UCHIWA/BLAST-MD
-┆
-├──► *𝐁𝐋𝐀𝐒𝐓-𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓.* https://chat.whatsapp.com/IR8cZNst6cU85ih73fVrud
-╰––––––––––––––––––––––––➤
+├► *𝐁𝐋𝐀𝐒𝐓-𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓.* https://chat.whatsapp.com/IR8cZNst6cU85ih73fVrud
+╰─────────────────────➤
 
- 𝐁𝐋𝐀𝐒𝐓-𝐌𝐃
+ © 𝐁𝐋𝐀𝐒𝐓-𝐌𝐃 *ALIVE.*
 `;
             let aliveMessage = {
                 image: {
